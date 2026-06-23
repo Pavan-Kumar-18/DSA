@@ -23,4 +23,5 @@ app.post("/job",async(req, res)=>{
 
 app.listen(5000, ()=>{
     console.log("Connected to backend")
+      process.exit(0);
 })
