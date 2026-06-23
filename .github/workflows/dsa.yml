@@ -1,4 +1,4 @@
-name: DSA Automation
+name: DSA Automations
 
 on:
   push:
