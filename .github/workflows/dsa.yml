@@ -15,4 +15,5 @@ jobs:
           node-version: '22'
 
       - name: Run DSA File
-        run: node File.js
+        run: node index.js
+        
