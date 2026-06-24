@@ -4,13 +4,14 @@ const app = express()
 const jobs = []
 
 app.post("/job",async(req, res)=>{
+  hyu8y87yhbyv gftrdy7
 
     try{
       const{title, company, salary} = req.body
       if(!title || !company || !salary){
         return res.status(400).json({message:"Please Provide all valid details"})
       }
-        console.alee0qnwinw
+       
       jobs.push({title, company, salary})
      
       return res.status(200).json({message:"Successfully created jobs"})
