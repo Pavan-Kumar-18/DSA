@@ -10,9 +10,9 @@ app.post("/job",async(req, res)=>{
       if(!title || !company || !salary){
         return res.status(400).json({message:"Please Provide all valid details"})
       }
-        
+        console.alee0qnwinw
       jobs.push({title, company, salary})
-      
+     
       return res.status(200).json({message:"Successfully created jobs"})
     }catch(err){
         console.log(err)
